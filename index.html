@@ -411,45 +411,14 @@
       <div class="hero-fade-in relative group" style="animation-delay: 0.15s;">
         <div class="absolute -inset-1 bg-yellow-400/40 rounded-xl blur-md group-hover:bg-cyan-400/50 transition duration-500"></div>
         
-        <div class="avatar-glitch-box auto-glitch-avatar relative w-36 h-36 sm:w-44 sm:h-44 md:w-48 md:h-48 rounded-lg overflow-hidden border-2 border-yellow-400 bg-gradient-to-b from-green-900/90 to-emerald-950 flex flex-col items-center justify-center shadow-2xl cursor-pointer">
-          
-          <div class="absolute top-2.5 text-center w-full z-20">
-            <span class="text-[12px] sm:text-sm font-black tracking-widest text-yellow-400 uppercase drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
-              STOCK LEARNERS
-            </span>
-          </div>
-
-          <!-- ======================================================== -->
-          <!-- LOGO IMAGE (Replace 'YOUR_LOGO_URL_HERE' with image link) -->
-          <!-- Example: src="https://your-domain.com/logo.jpg"          -->
-          <!-- ======================================================== -->
+        <div class="avatar-glitch-box auto-glitch-avatar relative w-36 h-36 sm:w-44 sm:h-44 md:w-48 md:h-48 rounded-lg overflow-hidden border-2 border-yellow-400 bg-slate-900 shadow-2xl cursor-pointer">
+          <!-- Direct Profile Photo (Clean, No Overlays/Avatars) -->
           <img 
             id="brandLogoImg" 
             src="Gautam01.jpeg" 
-            alt="Stock Learners Official Logo"
-            class="absolute inset-0 w-full h-full object-cover z-10"
-            onerror="this.style.display='none'; document.getElementById('vectorFallback').style.display='flex';"
+            alt="Stock Learners - Gautam Jha"
+            class="w-full h-full object-cover object-center block"
           />
-
-          <!-- Fallback Graphic (Shown automatically if image fails or URL is empty) -->
-          <div id="vectorFallback" class="w-full h-full flex flex-col items-center justify-end relative pt-6">
-            <svg class="absolute inset-0 w-full h-full opacity-35" viewBox="0 0 100 100" preserveAspectRatio="none">
-              <path d="M0,65 Q25,45 50,60 T100,40 L100,100 L0,100 Z" fill="rgba(34, 197, 94, 0.45)"/>
-              <path d="M0,75 Q30,55 60,70 T100,50" fill="none" stroke="#22c55e" stroke-width="2"/>
-            </svg>
-
-            <div class="relative z-10 flex flex-col items-center mb-2">
-              <div class="w-16 h-16 sm:w-20 sm:h-20 bg-amber-100 rounded-full border-2 border-stone-800 flex items-center justify-center shadow-lg relative overflow-hidden">
-                <span class="text-3xl sm:text-4xl select-none">👨‍💼</span>
-              </div>
-              
-              <div class="mt-1 bg-black/85 backdrop-blur-sm border border-yellow-400/50 rounded px-2.5 py-0.5 text-center shadow-md">
-                <p class="text-[10px] font-bold text-yellow-300 tracking-wide uppercase">STOCK LEARNERS</p>
-                <p class="text-[8px] text-gray-300 italic font-serif">Gautam Jha</p>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
 
