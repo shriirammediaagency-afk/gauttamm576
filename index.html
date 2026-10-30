@@ -1,106 +1,731 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Basic -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Free Market Education – Start Today</title>
-  <meta name="description" content="100% free stock market education. Learn chart reading, technical analysis, and risk management. No buy/sell tips. For learning purpose only.">
-  <link rel="canonical" href="https://example.com/">
-
-  <!-- Performance -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stock Learners - Market Insights & Guidance</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap" rel="stylesheet">
-
-  <!-- Favicons (optional) -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Free Market Education – Start Today">
-  <meta property="og:description" content="Learn charts & risk management. No buy/sell tips. 100% educational.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://example.com/">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1600&auto=format&fit=crop">
-
-  <!-- Minimal CSS (inline for speed) -->
-  <style>
-    :root{
-      --bg1:#0c0c1d;
-      --bg2:#1a1a2b;
-      --brand: #00f0ff;
-      --brand-2:#00f0ff;
-      --text:#ffffff;
-      --muted:#b5b5c3;
-    }
-    *{box-sizing:border-box}
-    html,body{margin:0;padding:0}
-    body{
-      font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      color:var(--text);
-      background:
-        linear-gradient(135deg, rgba(0,0,0,.45), rgba(0,0,0,.45)),
-        url('https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1600&auto=format&fit=crop') no-repeat center/cover fixed;
-      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
-      min-height:100vh;
-    }
-    .container{
-      max-width:520px; margin:0 auto; padding:24px 18px; text-align:center; min-height:100vh; display:flex; flex-direction:column; justify-content:center;
-      backdrop-filter: saturate(130%);
-    }
-    .badge{display:inline-block; font-size:.78rem; padding:6px 10px; border:1px solid #2a2a3a; border-radius:999px; color:#d6eaff; background:rgba(0,240,255,.08); margin-bottom:14px}
-    h1{font-size:1.9rem; line-height:1.2; margin:6px 0 10px; background:linear-gradient(90deg,var(--brand-2),var(--brand)); -webkit-background-clip:text; background-clip:text; color:transparent;}
-    .sub{font-size:1rem; color:var(--muted); margin:0 auto 16px; max-width:36ch}
-    .pill{
-      display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border-radius:999px; background:rgba(0,255,153,.07); border:1px dashed rgba(0,255,153,.35); color:#d8ffe9; font-size:.9rem; margin:6px 0 18px;
-    }
-    ul.bullets{list-style:none; padding:0; margin:0 0 18px}
-    ul.bullets li{margin:8px 0; color:#e9eef9}
-    .cta{
-      display:inline-block; text-decoration:none; background:var(--brand); color:#041b14; padding:14px 18px; font-weight:700; border-radius:12px; box-shadow:0 0 0 0 rgba(0,255,153,.6); transform:translateZ(0);
-      transition:transform .15s ease;
-      animation:pulse 1.6s infinite;
-    }
-    .cta:active{transform:scale(.98)}
-    @keyframes pulse{
-      0%{box-shadow:0 0 0 0 rgba(0,255,153,.55)}
-      70%{box-shadow:0 0 0 20px rgba(0,255,153,0)}
-      100%{box-shadow:0 0 0 0 rgba(0,255,153,0)}
-    }
-    .fineprint{font-size:.86rem; color:var(--muted); margin:18px auto 0; max-width:44ch}
-    .disclaimer{font-size:.78rem; color:#9aa4b2; margin:18px auto 0; max-width:50ch}
-    .safe{display:flex; align-items:center; justify-content:center; gap:8px; margin-top:14px; color:#a1ffd6; font-size:.9rem}
-    .shield{width:18px; height:18px; display:inline-block; border-radius:4px; background:linear-gradient(135deg,#0df,#0f9)}
-    footer{opacity:.8; margin-top:22px; font-size:.78rem; color:#9aa4b2}
-  </style>
-</head>
-<body>
-  <main class="container">
-    <span class="badge">100% Educational • Policy Safe</span>
-    <h1>Free Market Education – Start Today</h1>
-    <p class="sub">Understand charts & risk before trading</p>
-
-    <div class="pill">🚫 No Buy/Sell Tips • ✅ For Learning Purpose Only</div>
-
-    <ul class="bullets" aria-label="What you'll learn">
-      <li>• Chart basics & risk rules (no return promises)</li>
-      <li>• How to read trends without speculation</li>
-      <li>• Market discipline & common mistakes</li>
-    </ul>
-
-    <!-- CTA goes to a page-specific bridge -->
-    <a class="cta" href="bridge-lp68.html" rel="nofollow">Start Learning</a>
-
-    <div class="safe"><span class="shield" aria-hidden="true"></span> Ad Policy Friendly Content</div>
-
-    <p class="fineprint">We focus on concepts & frameworks suitable for beginners.</p>
-    <p class="disclaimer"><em>This website is for educational purposes only. We do not provide investment, trading, or financial advice.</em></p>
-
-    <footer>© <span id="y"></span> Market Basics Learning Hub</footer>
-  </main>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
 
   <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brandDark: '#080d1a',
+            cardBg: '#101a33',
+            cardBorder: '#233762',
+            accentGold: '#ffd026',
+            telegramBlue: '#0088cc',
+            telegramHover: '#0072ac'
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Outfit', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Smooth page scroll & base styling */
+    * {
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: #050811;
+      color: #e2e8f0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* Ambient background grid & glow */
+    .bg-mesh {
+      background-image: 
+        radial-gradient(circle at 50% 15%, rgba(30, 64, 175, 0.22) 0%, transparent 60%),
+        radial-gradient(circle at 80% 80%, rgba(245, 158, 11, 0.08) 0%, transparent 40%);
+    }
+
+    /* Outer golden frame matching screenshot */
+    .outer-golden-frame {
+      border: 2px solid rgba(234, 179, 8, 0.85);
+      box-shadow: 0 0 24px rgba(234, 179, 8, 0.18), inset 0 0 20px rgba(234, 179, 8, 0.05);
+      position: relative;
+    }
+
+    /* =========================================
+       CYBER GLITCH ANIMATIONS & EFFECTS
+       ========================================= */
+
+    /* 1. Header RGB Split Glitch Effect */
+    .glitch-text {
+      position: relative;
+      display: inline-block;
+      color: #38bdf8;
+    }
+
+    .glitch-text::before,
+    .glitch-text::after {
+      content: attr(data-text);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      clip-path: inset(0 0 0 0);
+    }
+
+    .glitch-text::before {
+      left: 2px;
+      text-shadow: -2px 0 #f43f5e;
+      animation: glitchAnim1 3.5s infinite linear alternate-reverse;
+    }
+
+    .glitch-text::after {
+      left: -2px;
+      text-shadow: -2px 0 #06b6d4, 2px 2px #ec4899;
+      animation: glitchAnim2 3s infinite linear alternate-reverse;
+    }
+
+    @keyframes glitchAnim1 {
+      0%, 88%, 100% {
+        clip-path: inset(50% 0 50% 0);
+        transform: skew(0deg);
+        opacity: 0.2;
+      }
+      89% {
+        clip-path: inset(10% 0 70% 0);
+        transform: skew(0.8deg) translate(-2px, 1px);
+        opacity: 0.9;
+      }
+      91% {
+        clip-path: inset(75% 0 10% 0);
+        transform: skew(-1deg) translate(3px, -1px);
+        opacity: 1;
+      }
+      93% {
+        clip-path: inset(30% 0 45% 0);
+        transform: skew(0.5deg) translate(-1px, 2px);
+        opacity: 0.8;
+      }
+      95% {
+        clip-path: inset(85% 0 5% 0);
+        transform: skew(1.2deg) translate(2px, 0);
+        opacity: 1;
+      }
+      97% {
+        clip-path: inset(20% 0 60% 0);
+        transform: skew(-0.6deg) translate(-2px, -1px);
+        opacity: 0.9;
+      }
+    }
+
+    @keyframes glitchAnim2 {
+      0%, 86%, 100% {
+        clip-path: inset(50% 0 50% 0);
+        transform: skew(0deg);
+        opacity: 0.2;
+      }
+      87% {
+        clip-path: inset(65% 0 15% 0);
+        transform: skew(-1.2deg) translate(2px, -2px);
+        opacity: 0.9;
+      }
+      89% {
+        clip-path: inset(25% 0 55% 0);
+        transform: skew(1deg) translate(-3px, 1px);
+        opacity: 1;
+      }
+      92% {
+        clip-path: inset(80% 0 8% 0);
+        transform: skew(-0.8deg) translate(2px, 1px);
+        opacity: 0.8;
+      }
+      94% {
+        clip-path: inset(15% 0 75% 0);
+        transform: skew(0.7deg) translate(-2px, 0);
+        opacity: 1;
+      }
+      96% {
+        clip-path: inset(45% 0 35% 0);
+        transform: skew(-1.5deg) translate(1px, -1px);
+        opacity: 0.9;
+      }
+    }
+
+    /* 2. Avatar / Mentor Frame Glitch Flicker */
+    .avatar-glitch-box {
+      position: relative;
+    }
+    
+    .avatar-glitch-box::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 0.5rem;
+      pointer-events: none;
+      z-index: 25;
+      background: repeating-linear-gradient(
+        0deg,
+        rgba(0, 255, 255, 0.05) 0px,
+        rgba(0, 255, 255, 0.05) 1px,
+        transparent 2px,
+        transparent 4px
+      );
+      opacity: 0.6;
+    }
+
+    .avatar-glitch-box:hover {
+      animation: avatarTwitch 0.4s ease-in-out infinite alternate;
+    }
+
+    @keyframes avatarTwitch {
+      0% {
+        transform: translate(0, 0);
+        filter: drop-shadow(0 0 10px rgba(34, 211, 238, 0.4));
+      }
+      20% {
+        transform: translate(-2px, 1px) skewX(1deg);
+        filter: drop-shadow(-3px 0 12px rgba(244, 63, 94, 0.7));
+      }
+      40% {
+        transform: translate(2px, -1px);
+        filter: drop-shadow(3px 0 12px rgba(6, 182, 212, 0.8));
+      }
+      60% {
+        transform: translate(-1px, -1px) skewX(-1deg);
+      }
+      80% {
+        transform: translate(1px, 2px);
+      }
+      100% {
+        transform: translate(0, 0);
+      }
+    }
+
+    /* Periodic automatic avatar glitch pulse */
+    @keyframes autoGlitchPulse {
+      0%, 92%, 100% {
+        transform: translate(0, 0);
+        box-shadow: 0 0 0 rgba(0,0,0,0);
+      }
+      93% {
+        transform: translate(-2px, 1px) scale(1.01);
+        box-shadow: 3px 0 15px rgba(239, 68, 68, 0.7), -3px 0 15px rgba(6, 182, 212, 0.7);
+      }
+      95% {
+        transform: translate(2px, -1px) scale(0.99);
+        box-shadow: -3px 0 15px rgba(239, 68, 68, 0.8), 3px 0 15px rgba(6, 182, 212, 0.8);
+      }
+      97% {
+        transform: translate(0, 1px);
+      }
+    }
+
+    .auto-glitch-avatar {
+      animation: autoGlitchPulse 4s infinite ease-in-out;
+    }
+
+    /* 3. Telegram Glitch Button */
+    .glitch-btn {
+      position: relative;
+      overflow: hidden;
+      transition: all 0.25s ease;
+    }
+
+    .glitch-btn::before {
+      content: '';
+      position: absolute;
+      inset: -2px;
+      background: linear-gradient(90deg, #06b6d4, #3b82f6, #ec4899);
+      opacity: 0;
+      z-index: -1;
+      filter: blur(8px);
+      transition: opacity 0.3s;
+    }
+
+    .glitch-btn:hover::before {
+      opacity: 0.8;
+      animation: scanlinePulse 1.2s infinite alternate;
+    }
+
+    .glitch-btn:hover {
+      animation: btnGlitchTwitch 0.35s infinite steps(2, start);
+    }
+
+    @keyframes btnGlitchTwitch {
+      0% {
+        transform: translate(0, 0) skew(0deg);
+      }
+      25% {
+        transform: translate(-1.5px, 1px) skew(-1deg);
+      }
+      50% {
+        transform: translate(1.5px, -1px) skew(1deg);
+      }
+      75% {
+        transform: translate(-1px, -0.5px) skew(0.5deg);
+      }
+      100% {
+        transform: translate(0, 0) skew(0deg);
+      }
+    }
+
+    /* Soft pulse glow animation for Telegram CTA */
+    @keyframes pulseGlow {
+      0%, 100% {
+        box-shadow: 0 0 0 0 rgba(14, 165, 233, 0.6), 0 4px 15px rgba(2, 132, 199, 0.35);
+      }
+      50% {
+        box-shadow: 0 0 0 10px rgba(14, 165, 233, 0), 0 6px 24px rgba(2, 132, 199, 0.6);
+      }
+    }
+
+    .animate-pulse-cta {
+      animation: pulseGlow 2.5s infinite;
+    }
+
+    /* Shimmer sweep effect */
+    .shimmer-btn {
+      position: relative;
+      overflow: hidden;
+    }
+    .shimmer-btn::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(
+        60deg,
+        transparent,
+        rgba(255, 255, 255, 0.22),
+        transparent
+      );
+      transform: rotate(25deg) translateY(-100%);
+      animation: shimmerSweep 4s ease-in-out infinite;
+    }
+
+    @keyframes shimmerSweep {
+      0% { transform: rotate(25deg) translateY(-100%); }
+      40%, 100% { transform: rotate(25deg) translateY(100%); }
+    }
+
+    /* Card subtle hover elevation with Cyber Edge */
+    .feature-card {
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s, box-shadow 0.35s;
+      position: relative;
+    }
+    
+    .feature-card::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.3s;
+      background: linear-gradient(135deg, rgba(6, 182, 212, 0.08) 0%, transparent 50%, rgba(244, 63, 94, 0.05) 100%);
+    }
+
+    .feature-card:hover::after {
+      opacity: 1;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-4px);
+      border-color: #38bdf8;
+      box-shadow: 0 12px 30px -10px rgba(14, 116, 244, 0.35), inset 0 0 15px rgba(6, 182, 212, 0.1);
+    }
+
+    /* Scroll Reveal Initial and Active State */
+    .scroll-reveal {
+      opacity: 0;
+      transform: translateY(45px);
+      transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+      will-change: opacity, transform;
+    }
+
+    .scroll-reveal.is-revealed {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Initial hero load soft entrance */
+    .hero-fade-in {
+      opacity: 0;
+      transform: translateY(18px);
+      animation: heroEnter 0.75s ease-out forwards;
+    }
+
+    @keyframes heroEnter {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Subtle float animation for badges */
+    .badge-float {
+      animation: floatBadge 3.6s ease-in-out infinite alternate;
+    }
+
+    @keyframes floatBadge {
+      0% { transform: translateY(0px) scale(1); }
+      100% { transform: translateY(-3px) scale(1.02); }
+    }
+  </style>
+</head>
+<body class="min-h-screen p-2 sm:p-4 md:p-8 flex items-center justify-center bg-mesh">
+
+  <!-- Outer Yellow/Gold Framed Container -->
+  <div class="outer-golden-frame w-full max-w-4xl bg-brandDark/95 rounded-lg overflow-hidden flex flex-col transition-all duration-300 p-4 sm:p-8 md:p-10 space-y-6">
+    
+    <!-- Top Title Header with Cyber Glitch Effect -->
+    <header class="hero-fade-in border-b border-[#1e2e4f]/80 pb-3 pt-1">
+      <h1 
+        class="glitch-text text-xl sm:text-2xl md:text-3xl font-extrabold tracking-wider font-display uppercase cursor-default"
+        data-text="STOCK LEARNERS"
+      >
+        STOCK LEARNERS
+      </h1>
+    </header>
+
+    <!-- Center: Mentor Logo / Profile Showcase & Upper CTA -->
+    <div class="flex flex-col items-center justify-center py-2 sm:py-4 space-y-6">
+      
+      <!-- Logo / Mentor Profile Box with Cyber Glitch -->
+      <div class="hero-fade-in relative group" style="animation-delay: 0.15s;">
+        <div class="absolute -inset-1 bg-yellow-400/40 rounded-xl blur-md group-hover:bg-cyan-400/50 transition duration-500"></div>
+        
+        <div class="avatar-glitch-box auto-glitch-avatar relative w-36 h-36 sm:w-44 sm:h-44 md:w-48 md:h-48 rounded-lg overflow-hidden border-2 border-yellow-400 bg-gradient-to-b from-green-900/90 to-emerald-950 flex flex-col items-center justify-center shadow-2xl cursor-pointer">
+          
+          <div class="absolute top-2.5 text-center w-full z-10">
+            <span class="text-[12px] sm:text-sm font-black tracking-widest text-yellow-400 uppercase drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
+              STOCK LEARNERS
+            </span>
+          </div>
+
+          <!-- Mentor Graphic SVG -->
+          <div class="w-full h-full flex flex-col items-center justify-end relative pt-6">
+            <svg class="absolute inset-0 w-full h-full opacity-35" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <path d="M0,65 Q25,45 50,60 T100,40 L100,100 L0,100 Z" fill="rgba(34, 197, 94, 0.45)"/>
+              <path d="M0,75 Q30,55 60,70 T100,50" fill="none" stroke="#22c55e" stroke-width="2"/>
+            </svg>
+
+            <div class="relative z-10 flex flex-col items-center">
+              <div class="w-16 h-16 sm:w-20 sm:h-20 bg-amber-100 rounded-full border-2 border-stone-800 flex items-center justify-center shadow-lg relative overflow-hidden">
+                <span class="text-3xl sm:text-4xl select-none">👨‍💼</span>
+              </div>
+              
+              <div class="mt-1 bg-black/85 backdrop-blur-sm border border-yellow-400/50 rounded px-2.5 py-0.5 text-center shadow-md">
+                <p class="text-[10px] font-bold text-yellow-300 tracking-wide uppercase">STOCK LEARNERS</p>
+                <p class="text-[8px] text-gray-300 italic font-serif">Gautam Jha</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Upper Telegram Action Button with Glitch & Scanline Effect -->
+      <div class="hero-fade-in flex flex-col items-center justify-center" style="animation-delay: 0.3s;">
+        <a 
+          href="https://t.me/+Clle_9iFmX1jOWY1" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="glitch-btn shimmer-btn animate-pulse-cta group inline-flex items-center gap-2.5 px-7 py-3.5 bg-[#0088cc] hover:bg-[#0077b5] text-white font-bold text-xs sm:text-sm uppercase tracking-wider rounded-md border-2 border-dashed border-sky-200 transition-all duration-300 shadow-xl"
+        >
+          <span class="w-5 h-5 rounded-full bg-white text-[#0088cc] flex items-center justify-center text-xs group-hover:rotate-12 transition-transform duration-300">
+            <i class="fa-brands fa-telegram"></i>
+          </span>
+          <span>JOIN NOW TELEGRAM</span>
+          <i class="fa-solid fa-arrow-right text-[11px] opacity-75 group-hover:translate-x-1 transition-transform"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Feature Cards & Lower Content Section -->
+    <div id="contentSection" class="space-y-4 md:space-y-5 pt-2">
+      
+      <!-- CARD 1: Market Insights & Analysis -->
+      <div class="scroll-reveal feature-card bg-cardBg border border-cardBorder rounded-lg p-5 sm:p-7 flex flex-col items-center text-center shadow-lg">
+        <div class="badge-float w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-cyan-400/90 bg-[#0d1629] flex items-center justify-center mb-3 shadow-[0_0_18px_rgba(34,211,238,0.25)]">
+          <div class="relative w-8 h-8 sm:w-10 sm:h-10 flex items-end justify-center gap-1.5 pb-1">
+            <span class="w-2 h-4 bg-amber-400 rounded-xs"></span>
+            <span class="w-2 h-7 bg-emerald-400 rounded-xs"></span>
+            <span class="w-2 h-5 bg-sky-400 rounded-xs"></span>
+            <svg class="absolute top-1 left-0 w-full h-4 overflow-visible" viewBox="0 0 36 16">
+              <path d="M2,12 L14,4 L24,9 L34,2" fill="none" stroke="#f43f5e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="34" cy="2" r="2.2" fill="#f43f5e"/>
+            </svg>
+          </div>
+        </div>
+
+        <h3 class="text-base sm:text-lg md:text-xl font-bold text-sky-400 mb-1.5 font-display tracking-wide">
+          Market Insights & Analysis
+        </h3>
+        <p class="text-xs sm:text-sm text-gray-400 max-w-lg font-normal">
+          Real-time market updates and expert discussions
+        </p>
+      </div>
+
+      <!-- CARD 2: Learn Trading Strategies -->
+      <div class="scroll-reveal feature-card bg-cardBg border border-cardBorder rounded-lg p-5 sm:p-7 flex flex-col items-center text-center shadow-lg">
+        <div class="badge-float w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-cyan-400/90 bg-[#0d1629] flex items-center justify-center mb-3 shadow-[0_0_18px_rgba(34,211,238,0.25)]">
+          <div class="flex flex-col items-center justify-center -space-y-1.5">
+            <div class="w-7 h-3.5 bg-red-400/90 rounded-sm transform -rotate-1 skew-x-12 shadow"></div>
+            <div class="w-8 h-3.5 bg-sky-300 rounded-sm transform rotate-0 shadow"></div>
+            <div class="w-8 h-3.5 bg-cyan-400/80 rounded-sm transform -rotate-1 -skew-x-12 shadow"></div>
+          </div>
+        </div>
+
+        <h3 class="text-base sm:text-lg md:text-xl font-bold text-sky-400 mb-1.5 font-display tracking-wide">
+          Learn Trading Strategies
+        </h3>
+        <p class="text-xs sm:text-sm text-gray-400 max-w-lg font-normal">
+          Investment | Share Market | Trading guidance
+        </p>
+      </div>
+
+      <!-- CARD 3: Practical Tips & Tricks -->
+      <div class="scroll-reveal feature-card bg-cardBg border border-cardBorder rounded-lg p-5 sm:p-7 flex flex-col items-center text-center shadow-lg">
+        <div class="badge-float w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-cyan-400/90 bg-[#0d1629] flex items-center justify-center mb-3 shadow-[0_0_18px_rgba(34,211,238,0.25)]">
+          <svg class="w-7 h-7 sm:w-8 sm:h-8 drop-shadow" viewBox="0 0 24 24" fill="none">
+            <path d="M12 2L4 5V11C4 16.55 7.42 21.74 12 23C16.58 21.74 20 16.55 20 11V5L12 2Z" fill="#ffd026" stroke="#b45309" stroke-width="1.2"/>
+            <path d="M12 2L4 5V11C4 16.55 7.42 21.74 12 23V2Z" fill="#ffe066" opacity="0.6"/>
+          </svg>
+        </div>
+
+        <h3 class="text-base sm:text-lg md:text-xl font-bold text-sky-400 mb-1.5 font-display tracking-wide">
+          Practical Tips & Tricks
+        </h3>
+        <p class="text-xs sm:text-sm text-gray-400 max-w-lg font-normal">
+          Actionable strategies and proven methods
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Lower Telegram CTA Button with Glitch effect -->
+    <div class="scroll-reveal pt-2 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <a 
+        href="https://t.me/+Clle_9iFmX1jOWY1" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        class="glitch-btn shimmer-btn animate-pulse-cta group inline-flex items-center gap-2.5 px-6 py-3 bg-[#0088cc] hover:bg-[#0077b5] text-white font-bold text-xs sm:text-sm uppercase tracking-wider rounded-md border-2 border-dashed border-sky-200 transition-all duration-300 shadow-xl"
+      >
+        <span class="w-5 h-5 rounded-full bg-white text-[#0088cc] flex items-center justify-center text-xs group-hover:rotate-12 transition-transform duration-300">
+          <i class="fa-brands fa-telegram"></i>
+        </span>
+        <span>JOIN NOW TELEGRAM</span>
+        <i class="fa-solid fa-arrow-right text-[11px] opacity-75 group-hover:translate-x-1 transition-transform"></i>
+      </a>
+
+      <div class="flex items-center gap-2 text-xs text-slate-400 bg-slate-900/60 px-3 py-1.5 rounded-full border border-slate-800">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+        <span>Active Community &bull; Daily Analysis</span>
+      </div>
+    </div>
+
+    <!-- Footer Links & Disclaimer -->
+    <footer class="scroll-reveal pt-4 border-t border-slate-800/80 space-y-3">
+      <!-- Legal / Info navigation pills -->
+      <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-4 text-xs font-medium text-slate-400 pt-1">
+        <button type="button" onclick="openModal('about')" class="hover:text-cyan-400 transition-colors px-2 py-1 rounded hover:bg-slate-800/60 cursor-pointer">About Us</button>
+        <span class="text-slate-600">&bull;</span>
+        <button type="button" onclick="openModal('terms')" class="hover:text-cyan-400 transition-colors px-2 py-1 rounded hover:bg-slate-800/60 cursor-pointer">Terms & Conditions</button>
+        <span class="text-slate-600">&bull;</span>
+        <button type="button" onclick="openModal('disclaimer')" class="hover:text-cyan-400 transition-colors px-2 py-1 rounded hover:bg-slate-800/60 cursor-pointer">Disclaimer</button>
+        <span class="text-slate-600">&bull;</span>
+        <button type="button" onclick="openModal('contact')" class="hover:text-cyan-400 transition-colors px-2 py-1 rounded hover:bg-slate-800/60 cursor-pointer">Contact Us</button>
+      </div>
+
+      <p class="text-[11px] sm:text-xs leading-relaxed text-gray-400 text-left font-normal">
+        <span class="font-semibold text-gray-300">Disclaimer:</span> This content is for educational purposes only and does not constitute financial advice. Trading involves risk. Please do your own research before making investment decisions.
+      </p>
+    </footer>
+
+  </div>
+
+  <!-- Interactive Cyber Modal Popup Container -->
+  <div id="infoModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-black/80 backdrop-blur-md transition-opacity duration-300">
+    <div id="modalBox" class="relative w-full max-w-lg bg-cardBg border-2 border-cyan-400/80 shadow-[0_0_35px_rgba(6,182,212,0.3)] rounded-xl p-6 sm:p-7 text-left transform scale-95 transition-all duration-300 text-slate-200">
+      
+      <!-- Close Button -->
+      <button onclick="closeModal()" type="button" class="absolute top-4 right-4 text-gray-400 hover:text-red-400 w-8 h-8 rounded-lg bg-slate-900/80 border border-slate-700 flex items-center justify-center text-sm transition-colors cursor-pointer">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <!-- Modal Header -->
+      <div class="flex items-center gap-3 mb-4 pb-3 border-b border-slate-800">
+        <div id="modalIcon" class="w-10 h-10 rounded-lg bg-sky-500/10 border border-sky-400/40 text-sky-400 flex items-center justify-center text-lg">
+          <i class="fa-solid fa-circle-info"></i>
+        </div>
+        <div>
+          <h2 id="modalTitle" class="text-lg sm:text-xl font-bold text-white font-display">Title</h2>
+          <p class="text-xs text-sky-400 tracking-wide font-medium">Stock Learners Official Policy</p>
+        </div>
+      </div>
+
+      <!-- Modal Dynamic Body Content -->
+      <div id="modalBody" class="text-xs sm:text-sm text-slate-300 space-y-3 leading-relaxed max-h-[60vh] overflow-y-auto pr-2">
+        <!-- Injected via JavaScript -->
+      </div>
+
+      <!-- Modal Bottom Close Pill -->
+      <div class="mt-6 pt-3 border-t border-slate-800/80 flex justify-end">
+        <button onclick="closeModal()" type="button" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-200 rounded-md transition-colors cursor-pointer">
+          Close Window
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Smooth interactive script with IntersectionObserver & Modal Logic -->
+  <script>
+    // Modal Content Definitions
+    const modalContents = {
+      about: {
+        title: 'About Us',
+        icon: 'fa-solid fa-users',
+        content: `
+          <p><strong class="text-white">Stock Learners</strong> is a dedicated knowledge-sharing initiative founded by Gautam Jha to demystify financial markets, technical charting, and price-action methodologies for aspiring traders and long-term investors.</p>
+          <p>Our core philosophy revolves around disciplined risk management, rational thinking, and real-time market case studies designed to help retail participants navigate volatile market cycles with confidence.</p>
+          <div class="p-3 bg-slate-900/80 border border-slate-800 rounded-md text-xs text-slate-300">
+            <span class="text-sky-400 font-semibold">Our Mission:</span> Empower retail traders through structured education, analytical clarity, and community-driven knowledge sharing.
+          </div>
+        `
+      },
+      terms: {
+        title: 'Terms & Conditions',
+        icon: 'fa-solid fa-file-contract',
+        content: `
+          <p><strong class="text-white">1. Educational Nature:</strong> All materials, charts, ideas, and commentaries provided on this platform and our community groups are purely intended for educational and study purposes.</p>
+          <p><strong class="text-white">2. No Investment Advice:</strong> Nothing published constitutes an offer, solicitation, or recommendation to buy or sell securities, commodities, futures, or options contracts.</p>
+          <p><strong class="text-white">3. User Responsibility:</strong> You alone bear total accountability for any financial trades or market executions made. Always exercise independent diligence and trade with defined risk capital.</p>
+          <p><strong class="text-white">4. Intellectual Property:</strong> Content, graphics, and course outlines belong to Stock Learners and may not be reproduced without explicit written consent.</p>
+        `
+      },
+      disclaimer: {
+        title: 'Statutory Disclaimer',
+        icon: 'fa-solid fa-triangle-exclamation',
+        content: `
+          <p class="text-red-300 font-medium">Please read carefully before proceeding:</p>
+          <p><strong class="text-white">Not SEBI Registered:</strong> Stock Learners and its administrators are not SEBI registered research analysts or investment advisors. No personalized portfolio advisory is provided.</p>
+          <p><strong class="text-white">High Market Risk:</strong> Securities market trading involves substantial risk of loss and is not suitable for every investor. Options and leveraged derivatives carry rapid capital erosion risks.</p>
+          <p>Historical chart demonstrations or previous analysis setups do not guarantee identical future outcomes. Consult a licensed SEBI registered financial advisor prior to executing capital trades.</p>
+        `
+      },
+      contact: {
+        title: 'Contact Us',
+        icon: 'fa-solid fa-headset',
+        content: `
+          <p>Have questions regarding our learning materials or community sessions? Reach out to our dedicated support channels:</p>
+          <div class="space-y-2 mt-2">
+            <div class="p-2.5 bg-slate-900/80 border border-slate-800 rounded flex items-center gap-3">
+              <i class="fa-brands fa-telegram text-sky-400 text-base"></i>
+              <div>
+                <p class="text-[11px] text-slate-400 uppercase font-semibold">Official Channel</p>
+                <a href="https://t.me/+Clle_9iFmX1jOWY1" target="_blank" class="text-sky-400 hover:underline">t.me/+Clle_9iFmX1jOWY1</a>
+              </div>
+            </div>
+            <div class="p-2.5 bg-slate-900/80 border border-slate-800 rounded flex items-center gap-3">
+              <i class="fa-solid fa-envelope text-amber-400 text-base"></i>
+              <div>
+                <p class="text-[11px] text-slate-400 uppercase font-semibold">Email Inquiries</p>
+                <span class="text-slate-200">support@stocklearners.com</span>
+              </div>
+            </div>
+            <div class="p-2.5 bg-slate-900/80 border border-slate-800 rounded flex items-center gap-3">
+              <i class="fa-solid fa-clock text-emerald-400 text-base"></i>
+              <div>
+                <p class="text-[11px] text-slate-400 uppercase font-semibold">Response Hours</p>
+                <span class="text-slate-200">Monday - Friday (10:00 AM - 6:00 PM IST)</span>
+              </div>
+            </div>
+          </div>
+        `
+      }
+    };
+
+    function openModal(key) {
+      const data = modalContents[key];
+      if (!data) return;
+
+      document.getElementById('modalTitle').textContent = data.title;
+      document.getElementById('modalBody').innerHTML = data.content;
+      document.getElementById('modalIcon').innerHTML = `<i class="${data.icon}"></i>`;
+
+      const modal = document.getElementById('infoModal');
+      const box = document.getElementById('modalBox');
+
+      modal.classList.remove('hidden');
+      setTimeout(() => {
+        box.classList.remove('scale-95');
+        box.classList.add('scale-100');
+      }, 10);
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('infoModal');
+      const box = document.getElementById('modalBox');
+
+      box.classList.remove('scale-100');
+      box.classList.add('scale-95');
+
+      setTimeout(() => {
+        modal.classList.add('hidden');
+        document.body.style.overflow = '';
+      }, 150);
+    }
+
+    // Backdrop click close & ESC key listener
+    document.getElementById('infoModal')?.addEventListener('click', (e) => {
+      if (e.target === e.currentTarget) closeModal();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // Intersection Observer: Elements appear softly as user scrolls / slides up
+      const revealElements = document.querySelectorAll('.scroll-reveal');
+
+      const observerOptions = {
+        root: null,
+        rootMargin: '0px 0px -40px 0px',
+        threshold: 0.15
+      };
+
+      const revealObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-revealed');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, observerOptions);
+
+      revealElements.forEach(el => {
+        revealObserver.observe(el);
+      });
+    });
   </script>
 </body>
 </html>
